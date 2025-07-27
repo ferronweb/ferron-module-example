@@ -8,6 +8,8 @@ This module responds with "Hello World!" for "/hello" request paths.
 
 ## Additional KDL configuration directives
 
+### Directives
+
 - `example_handler [enable_example_handler: bool]`
   - This directive specifies whenever an example handler is enabled. This handler responds with "Hello World" for "/hello" request paths. Default: `example_handler #false`
 
