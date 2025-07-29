@@ -46,6 +46,7 @@ impl ModuleLoader for ExampleModuleLoader {
   /// # Parameters
   /// * `config` - The server configuration for this specific module instance
   /// * `_global_config` - Optional global server configuration (unused in this example)
+  /// * `_secondary_runtime` - A reference to the secondary Tokio runtime for asynchronous operations (unused in this example)
   ///
   /// # Returns
   /// A thread-safe, reference-counted module instance that implements the Module trait
