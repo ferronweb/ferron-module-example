@@ -27,6 +27,12 @@ pub struct ExampleModuleLoader {
   cache: ModuleCache<ExampleModule>,
 }
 
+impl Default for ExampleModuleLoader {
+    fn default() -> Self {
+        Self::new()
+    }
+}
+
 impl ExampleModuleLoader {
   /// Creates a new module loader with an empty cache
   ///
