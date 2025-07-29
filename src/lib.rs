@@ -28,9 +28,9 @@ pub struct ExampleModuleLoader {
 }
 
 impl Default for ExampleModuleLoader {
-    fn default() -> Self {
-        Self::new()
-    }
+  fn default() -> Self {
+    Self::new()
+  }
 }
 
 impl ExampleModuleLoader {
